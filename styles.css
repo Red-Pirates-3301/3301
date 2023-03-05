@@ -1,36 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bamum&family=Pirata+One&family=Roboto&family=UnifrakturCook:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bamum&family=Pirata+One&family=Roboto&family=UnifrakturCook:wght@700&display=swap");
 
-html{
-    overflow-x: hidden;
+html {
+  /* overflow-x: hidden; */
 }
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    min-height: 95vh;
-    height: auto;
-    padding: 20px 0px;
-    font-family: 'Pirata One', cursive;
-    font-size: 23px;
-    flex-direction: column;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98vw;
+  min-height: 95vh;
+  height: auto;
+  padding: 20px 0px;
+  font-family: "Pirata One", cursive;
+  font-size: 23px;
+  flex-direction: column;
 }
 
-#one{
-    font-family: 'Pirata One', cursive;
-    font-size: 39px;
+p{
+  text-align: center;
 }
 
-#two{
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+#span{
+  color: red;
 }
 
-h3{
-    font-family: 'Noto Sans Bamum', sans-serif;
+#one {
+  font-family: "Pirata One", cursive;
+  font-size: 39px;
 }
 
-h1{
-    margin-left: -180px;
+#two {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+h3 {
+  font-family: "Noto Sans Bamum", sans-serif;
 }
